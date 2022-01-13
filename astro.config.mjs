@@ -11,6 +11,6 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
 	// Enable the Svelte renderer to support Svelte components.
 	renderers: ['@astrojs/renderer-svelte'],
 	buildOptions: {
-		site: '/astro-portfolio-demo'
+		site: 'https://tcbyrd.dev/astro-portfolio-demo'
 	}
 });
