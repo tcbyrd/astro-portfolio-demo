@@ -11,6 +11,6 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
 	// Enable the Svelte renderer to support Svelte components.
 	renderers: ['@astrojs/renderer-svelte'],
 	buildOptions: {
-		site: 'https://tcbyrd.dev/'
+		site: 'http://tcbyrd-18f486fafe-24447311.drafts.github.io/'
 	}
 });
