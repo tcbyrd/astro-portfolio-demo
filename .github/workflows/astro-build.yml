@@ -42,6 +42,6 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        uses: paper-spa/deploy-pages@pr-previews
+        uses: paper-spa/deploy-pages@main
         with:
           preview: true
