@@ -1,6 +1,6 @@
 <nav>
     <a class="logolink" href="/astro-portfolio-demo">
-        <div class="monogram">JW</div>
+        <div class="monogram">🐱</div>
     </a>
     <a class="link" href="/astro-portfolio-demo/projects">Portfolio</a>
     <a class="link" href="/astro-portfolio-demo/about">About</a>
@@ -53,12 +53,13 @@
         justify-content: center;
         width: 2em;
         height: 2em;
-        margin-right: 0.5rem;
+        margin-right: 0.1rem;
         color: var(--c-black);
         font-weight: 900;
         letter-spacing: -0.125rem;
         border: 3px solid currentColor;
         border-radius: 50%;
+        letter-spacing: .3em;
     }
     .social {
         display: block;
