@@ -34,7 +34,6 @@ jobs:
         path: artifact.tar
 
   deploy:
-    if: ${{ always() }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -44,5 +43,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: paper-spa/deploy-pages@main
-        with:
-          preview: true
