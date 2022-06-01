@@ -1,6 +1,8 @@
 name: Build astro site
 
 on:
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
